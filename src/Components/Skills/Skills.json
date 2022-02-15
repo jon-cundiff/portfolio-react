@@ -1,0 +1,104 @@
+{
+    "core": [
+        {
+            "name": "JavaScript",
+            "icon": "js",
+            "description": ""
+        },
+        {
+            "name": "HTML",
+            "icon": "html",
+            "description": ""
+        },
+        {
+            "name": "CSS",
+            "icon": "css",
+            "description": ""
+        },
+        {
+            "name": "Node.js",
+            "icon": "nodejs",
+            "description": ""
+        },
+        {
+            "name": "Python",
+            "icon": "python",
+            "description": ""
+        },
+        {
+            "name": "React",
+            "icon": "react",
+            "description": ""
+        },
+        {
+            "name": "Redux",
+            "icon": "redux",
+            "description": ""
+        },
+        {
+            "name": "Vue",
+            "icon": "vue",
+            "description": ""
+        },
+        {
+            "name": "Express",
+            "icon": "express",
+            "description": ""
+        },
+        {
+            "name": "Socket.IO",
+            "icon": "socketio",
+            "description": ""
+        },
+        {
+            "name": "PostgreSQL",
+            "icon": "postgres",
+            "description": ""
+        },
+        {
+            "name": "MongoDB",
+            "icon": "mongodb",
+            "description": ""
+        },
+        {
+            "name": "Bootstrap",
+            "icon": "bootstrap",
+            "description": ""
+        },
+        {
+            "name": "Bulma",
+            "icon": "bulma",
+            "description": ""
+        },
+        {
+            "name": "Sass",
+            "icon": "sass",
+            "description": ""
+        },
+        {
+            "name": "C#",
+            "icon": "cs",
+            "description": ""
+        },
+        {
+            "name": "Dart",
+            "icon": "dart",
+            "description": ""
+        },
+        {
+            "name": "Flutter",
+            "icon": "flutter",
+            "description": ""
+        }
+    ],
+    "versionControl": ["GitHub", "GitLab", "VSCode", "npm"],
+    "database": ["Sequelize", "Beekeeper", "Mongoose"],
+    "collaborative": [
+        "Zoom",
+        "Slack",
+        "Trello",
+        "Agile Project Management",
+        "Figma",
+        "Miro "
+    ]
+}

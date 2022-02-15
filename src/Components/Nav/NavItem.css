@@ -19,6 +19,11 @@
 }
 
 @media screen and (min-width: 550px) {
+    .icon-container:hover,
+    .icon-container:active {
+        width: 8rem;
+    }
+
     .icon-container:hover span {
         display: inline;
         margin-left: 20px;

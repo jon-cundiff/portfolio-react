@@ -1,37 +1,11 @@
-import React, { useEffect } from "react";
-import anime from "animejs/lib/anime.es";
+import React from "react";
 
 import jon from "./jon.jpeg";
 import "./Home.css";
 
 const Home = () => {
-    useEffect(() => {
-        anime({
-            targets: ".bar",
-            backgroundColor: () => {
-                let randR = Math.floor(Math.random() * 55) + 200;
-                let randG = Math.floor(Math.random() * 90);
-                let randB = Math.floor(Math.random() * 90);
-                return `rgba(${randR}, ${randG}, ${randB}, .1)`;
-            },
-            // translateY: () => anime.random(-100, -600),
-            // rotate: "1turn",
-            height: () => {
-                let randomPx = Math.floor(Math.random() * 400) + 100;
-                return `${randomPx}px`;
-            },
-            duration: 800,
-            loop: true,
-            direction: "alternate",
-            delay: () => anime.random(0, 900),
-        });
-
-        return () => {
-            anime.remove(".bar");
-        };
-    }, []);
     return (
-        <>
+        <div>
             <div className="container-center">
                 <div className="info">
                     <h1 className="title">I am Jon Cundiff</h1>
@@ -54,21 +28,7 @@ const Home = () => {
                     <img src={jon} alt="Jon Cundiff" />
                 </div>
             </div>
-            <div className="bars">
-                <div className="bar"></div>
-                <div className="bar"></div>
-                <div className="bar"></div>
-                <div className="bar"></div>
-                <div className="bar"></div>
-                <div className="bar"></div>
-                <div className="bar"></div>
-                <div className="bar"></div>
-                <div className="bar"></div>
-                <div className="bar"></div>
-                <div className="bar"></div>
-                <div className="bar"></div>
-            </div>
-        </>
+        </div>
     );
 };
 

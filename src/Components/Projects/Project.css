@@ -33,7 +33,7 @@
 .tech {
     padding: 0.5rem 1rem;
     background-color: var(--color-accent-dark);
-    color: var(--color-highlight);
+    color: var(--color-info);
     border-radius: 20px;
     box-shadow: 2px 2px 5px black;
 }

@@ -9,6 +9,9 @@ import Projects from "./Components/Projects/Projects";
 import Articles from "./Components/Articles/Articles";
 
 import "./App.css";
+import Bars from "./Components/Common/Bars";
+import Skills from "./Components/Skills/Skills";
+import Contact from "./Components/Contact/Contact";
 
 function App() {
     let location = useLocation();
@@ -16,6 +19,7 @@ function App() {
         <div className="App">
             <Nav />
             <div className="app-wrapper">
+                <Bars />
                 <SwitchTransition mode="out-in">
                     <CSSTransition
                         key={location.pathname}
@@ -27,9 +31,12 @@ function App() {
                             <Route path="/about" element={<About />} />
                             <Route path="/projects" element={<Projects />} />
                             <Route path="/articles" element={<Articles />} />
+                            <Route path="/skills" element={<Skills />} />
+                            <Route path="/contact" element={<Contact />} />
                         </Routes>
                     </CSSTransition>
                 </SwitchTransition>
+                <Bars bottom />
             </div>
         </div>
     );

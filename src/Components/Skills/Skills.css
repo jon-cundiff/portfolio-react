@@ -1,0 +1,15 @@
+.skills-container {
+    overflow-y: scroll;
+    height: calc(100% - 140px);
+    background: var(--color-bg);
+    position: relative;
+    z-index: 2;
+}
+
+.core-skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 1.5rem;
+    column-gap: 1.5rem;
+}

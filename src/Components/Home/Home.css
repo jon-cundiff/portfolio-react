@@ -1,22 +1,7 @@
-.bars {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-}
-
-.bar {
-    width: 8.3%;
-    height: 1px;
-    border-radius: 20px;
-    background-color: rgba(255, 0, 0, 0.08);
-}
-
 .title,
 .subtitle {
     font-family: "Rowdies", cursive;
+    font-weight: 400;
 }
 
 .title {
@@ -27,6 +12,9 @@
     font-size: 1.4rem;
 }
 
+.info p {
+    text-align: justify;
+}
 image {
     width: 90vw;
 }
@@ -35,7 +23,7 @@ image {
     position: relative;
     z-index: 2;
     width: 90%;
-    box-shadow: 2px 2px 10px rgba(10, 10, 10, 0.8);
+    box-shadow: 15px 15px 5px var(--color-accent-dark);
 }
 
 @media screen and (min-width: 550px) {

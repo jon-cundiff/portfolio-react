@@ -1,0 +1,23 @@
+.mediaLinks {
+    display: flex;
+    justify-content: center;
+    column-gap: 2rem;
+}
+
+.contact-link {
+    font-size: 2rem;
+    color: var(--color-font);
+}
+
+.info .phone-line {
+    display: flex;
+    text-align: center;
+    font-size: 2.5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.phone {
+    margin-left: 1.4rem;
+    font-size: 1.4rem;
+}

@@ -1,6 +1,8 @@
 import React from "react";
 
 import "./Project.css";
+import Roles from "./Roles";
+import Techs from "./Techs";
 
 const Project = ({
     title,
@@ -34,19 +36,9 @@ const Project = ({
             </div>
             <p>{description}</p>
             <h3>Technologies</h3>
-            <ul className="techs">
-                {technologies.map((technology) => (
-                    <li className="tech" key={technology}>
-                        {technology}
-                    </li>
-                ))}
-            </ul>
+            <Techs techs={technologies} />
             <h3>Responsibilities</h3>
-            <ul className="roles">
-                {roles.map((role) => (
-                    <li className="role">{role}</li>
-                ))}
-            </ul>
+            <Roles roles={roles} />
         </div>
     );
 };

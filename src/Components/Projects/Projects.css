@@ -3,5 +3,13 @@
     display: flex;
     flex-direction: column;
     row-gap: 2rem;
-    height: 80%;
+    height: 85%;
+}
+
+.projects,
+.projects-title {
+    position: relative;
+    z-index: 2;
+    background-color: var(--color-bg);
+    box-shadow: 1px 5px 3px var(--color-accent-dark);
 }
