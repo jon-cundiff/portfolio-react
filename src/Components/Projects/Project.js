@@ -54,7 +54,7 @@ const Project = ({
             <Techs techs={technologies} />
             <h3>Responsibilities</h3>
             <Roles roles={roles} />
-            <div className="project-images">{imageItems}</div>
+            {imageItems && <div className="project-images">{imageItems}</div>}
         </div>
     );
 };

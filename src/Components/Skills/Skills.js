@@ -7,8 +7,13 @@ import "./Skills.css";
 import Tool from "./Tool";
 
 const Skills = () => {
-    const { core, versionControl, database, collaborative } = SkillsJson;
+    const { core, versionControl, database, collaborative, learning } =
+        SkillsJson;
     const coreSkillItems = core.map((skill) => (
+        <Skill key={skill.name} skill={skill} />
+    ));
+
+    const learningSkillItems = learning.map((skill) => (
         <Skill key={skill.name} skill={skill} />
     ));
 
@@ -38,6 +43,8 @@ const Skills = () => {
                 <div className="tool-list db-tools">{dbItems}</div>
                 <h3>Collaborative Tools</h3>
                 <div className="tool-list collab-tools">{collabItems}</div>
+                <h3>What I'm Learning Now</h3>
+                <div className="core-skills">{learningSkillItems}</div>
             </div>
         </div>
     );

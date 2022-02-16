@@ -66,5 +66,25 @@
                 "description": "Concerts Page (Mobile)"
             }
         ]
+    },
+    {
+        "title": "jon-cundiff.dev",
+        "description": "This website was created using React using modern functional component design and hooks. It utilizes custom CSS and AnimeJS for subtle background animations",
+        "git": "https://github.com/jon-cundiff/portfolio-react",
+        "live": "https://jon-cundiff.dev/",
+        "technologies": [
+            "Javascript",
+            "HTML",
+            "CSS",
+            "React",
+            "AnimeJS",
+            "react-transition-group"
+        ],
+        "roles": [
+            "Function/Page based project structure",
+            "Page designs based around JSON content and external API for Medium feed",
+            "Page transitions for application-like feel while navigating"
+        ],
+        "images": []
     }
 ]
