@@ -20,8 +20,8 @@ const Home = () => {
                         other programming languages, including Dart and Flutter
                         for cross-platform mobile app development with near
                         native performance, Java, and C#. Once syntax is down,
-                        most practices and patterns tends to be a consistent
-                        denominator.
+                        the good practices and patterns to follow tend to be a
+                        consistent denominator.
                     </p>
                 </div>
                 <div className="image">

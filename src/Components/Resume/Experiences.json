@@ -1,0 +1,15 @@
+[
+    {
+        "id": 1,
+        "role": "Staff Development Specialist",
+        "employer": "State of Missouri Family Support Division",
+        "location": "Columbia, MO",
+        "dateRange": "September 2019 - November 2021",
+        "description": "Trained staff members to properly utilize business systems and policies for income assistance programs via classroom instruction and online webinars. Developed training material for class and online training material. Updated content on Training Unit's Wordpress site.",
+        "achievements": [
+            "Saved multiple hours per week in training database preparation by creating a script VBA for Excel that calls TN3270 Plus scripts written in BASIC-style syntax",
+            "Created a more accurate emulation of mainframe software for training purposes utilizing JavaScript to add functionality to Articulate Storyline 360 slides",
+            "Converted complicated technical memos into concise technical guides for field staff"
+        ]
+    }
+]

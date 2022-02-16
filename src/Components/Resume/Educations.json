@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "school": "DigitalCrafts",
+        "degree": "Certificate in Software Engineering",
+        "location": "Atlanta, Georgia",
+        "dateRange": "December 2021 - April 2022",
+        "description": "Software engineering training program covering full-stack development including, but not limited to JavaScript, Python, including an emphasis on cutting-edge frameworks like React/Redux and server-side technologies including Node.js, Express, and PostgreSQL."
+    },
+    {
+        "id": 2,
+        "school": "Missouri Western State University",
+        "degree": "B.F.A. in Graphic Design",
+        "location": "St. Joseph, MO",
+        "dateRange": "August 2006 - May 2011",
+        "description": null
+    }
+]

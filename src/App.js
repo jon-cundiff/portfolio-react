@@ -3,15 +3,16 @@ import { SwitchTransition, CSSTransition } from "react-transition-group";
 import { Routes, Route, useLocation } from "react-router-dom";
 
 import Nav from "./Components/Nav/Nav";
+import Bars from "./Components/Common/Bars";
 import Home from "./Components/Home/Home";
 import About from "./Components/About/About";
 import Projects from "./Components/Projects/Projects";
+import Skills from "./Components/Skills/Skills";
+import Resume from "./Components/Resume/Resume";
 import Articles from "./Components/Articles/Articles";
+import Contact from "./Components/Contact/Contact";
 
 import "./App.css";
-import Bars from "./Components/Common/Bars";
-import Skills from "./Components/Skills/Skills";
-import Contact from "./Components/Contact/Contact";
 
 function App() {
     let location = useLocation();
@@ -30,8 +31,9 @@ function App() {
                             <Route path="/" element={<Home />} />
                             <Route path="/about" element={<About />} />
                             <Route path="/projects" element={<Projects />} />
-                            <Route path="/articles" element={<Articles />} />
                             <Route path="/skills" element={<Skills />} />
+                            <Route path="/resume" element={<Resume />} />
+                            <Route path="/articles" element={<Articles />} />
                             <Route path="/contact" element={<Contact />} />
                         </Routes>
                     </CSSTransition>

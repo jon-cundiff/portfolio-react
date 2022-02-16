@@ -15,11 +15,33 @@
     );
 }
 
+.title,
+.subtitle {
+    font-family: "Rowdies", cursive;
+    font-weight: 400;
+}
+
+.title {
+    font-size: 2rem;
+}
+
+.subtitle {
+    font-size: 1.4rem;
+}
+
+.pull-ahead {
+    position: relative;
+    z-index: 2;
+    background-color: var(--color-bg);
+    box-shadow: 1px 5px 10px var(--color-accent-dark);
+}
+
 .bars {
     display: flex;
     justify-content: space-between;
     position: absolute;
     width: 100%;
+    opacity: 0.5;
     z-index: 1;
 }
 
@@ -45,6 +67,7 @@
     position: relative;
     flex-direction: column;
     background-color: var(--color-bg);
+    border-radius: 10px;
     width: 100vw;
     height: 90vh;
 }

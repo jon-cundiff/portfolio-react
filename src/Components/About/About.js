@@ -9,7 +9,7 @@ const About = () => {
         <>
             <div className="container-center">
                 <div className="about info">
-                    <h1>About Jon</h1>
+                    <h1 className="title">About Jon</h1>
                     <p>
                         Hi! I'm Jon Cundiff. I am a full stack web developer. I
                         do most of my work in JavaScript and Node.js. I married

@@ -1,6 +1,6 @@
 .skills-container {
     overflow-y: scroll;
-    height: calc(100% - 140px);
+    height: calc(100% - 90px);
     background: var(--color-bg);
     position: relative;
     z-index: 2;

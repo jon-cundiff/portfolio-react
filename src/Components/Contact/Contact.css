@@ -1,12 +1,19 @@
 .mediaLinks {
     display: flex;
     justify-content: center;
-    column-gap: 2rem;
+    margin-top: 1.5rem;
+    column-gap: 3rem;
 }
 
 .contact-link {
     font-size: 2rem;
     color: var(--color-font);
+}
+
+.contact-link:hover,
+.contact-link:active {
+    color: var(--color-info);
+    transition: color 300ms;
 }
 
 .info .phone-line {

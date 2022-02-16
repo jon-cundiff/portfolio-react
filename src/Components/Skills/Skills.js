@@ -24,8 +24,8 @@ const Skills = () => {
 
     return (
         <div className="container">
-            <h1>Skills</h1>
-            <div className="skills-container">
+            <h1 className="title pull-ahead">Skills</h1>
+            <div className="skills-container pull-ahead">
                 <p>
                     Below are the technologies used in my journey as a developer
                     so far.

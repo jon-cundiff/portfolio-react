@@ -10,9 +10,9 @@ const Bars = ({ bottom }) => {
             targets: ".bar",
             backgroundColor: () => {
                 let randR = Math.floor(Math.random() * 55) + 200;
-                let randG = Math.floor(Math.random() * 120) + 20;
-                let randB = Math.floor(Math.random() * 120) + 20;
-                return `rgba(${randR}, ${randG}, ${randB}, .05)`;
+                let randG = Math.floor(Math.random() * 160) + 20;
+                let randB = Math.floor(Math.random() * 160) + 20;
+                return `rgba(${randR}, ${randG}, ${randB}, .08)`;
             },
             // translateY: () => anime.random(-100, -600),
             // rotate: "1turn",

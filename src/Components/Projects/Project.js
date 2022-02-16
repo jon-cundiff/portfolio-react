@@ -13,9 +13,24 @@ const Project = ({
     git,
     live,
 }) => {
+    const imageItems = images.map((image, index) => (
+        <div>
+            <div className="project-image-container" key={index}>
+                <img
+                    src={image.link}
+                    alt="Project Demo"
+                    className="project-image"
+                />
+            </div>
+            <p className="project-image-description">
+                <i>{image.description}</i>
+            </p>
+        </div>
+    ));
+
     return (
         <div className="project">
-            <h2>{title}</h2>
+            <h2 className="subtitle">{title}</h2>
             <div className="links">
                 <a
                     href={git}
@@ -39,6 +54,7 @@ const Project = ({
             <Techs techs={technologies} />
             <h3>Responsibilities</h3>
             <Roles roles={roles} />
+            <div className="project-images">{imageItems}</div>
         </div>
     );
 };
