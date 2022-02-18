@@ -1,9 +1,10 @@
 .skills-container {
     overflow-y: scroll;
-    height: calc(100% - 90px);
+    height: calc(var(--vh, vh) * 86 - 100px);
     background: var(--color-bg);
     position: relative;
     z-index: 2;
+    padding: 0.3rem;
 }
 
 .core-skills {
@@ -12,4 +13,10 @@
     justify-content: center;
     row-gap: 1.5rem;
     column-gap: 1.5rem;
+}
+
+@media screen and (min-width: 550px) {
+    .skills-container {
+        height: calc(100% - 90px);
+    }
 }

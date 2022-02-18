@@ -21,7 +21,7 @@ const Resume = () => {
         <div className="container">
             <h1 className="title pull-ahead">Resume</h1>
             <p>
-                <a href="#">PDF Resume</a>
+                <a href="/pdf/Jon_Cundiff.pdf">PDF Resume</a>
             </p>
             <div className="resume-container pull-ahead">
                 <ResumeSection title="Experience">

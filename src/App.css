@@ -4,9 +4,10 @@
     /* background-color: var(--color-bg); */
     text-align: center;
     display: flex;
-    height: 100vh;
+    height: calc(var(--vh, 1vh) * 100);
     justify-content: center;
     align-items: center;
+    overflow: hidden;
     background-image: linear-gradient(
         60deg,
         var(--color-accent-dark) 50%,
@@ -70,7 +71,7 @@
     border-radius: 10px;
     width: 100vw;
     height: 90vh;
-    overflow-y: scroll;
+    overflow-y: auto;
 }
 
 .container {
@@ -111,8 +112,10 @@
 
 @media screen and (max-width: 549px) {
     .app-wrapper {
+        position: relative;
+        bottom: calc(var(--vh, 1vh) * 4);
         overflow-y: auto;
-        margin-bottom: 3rem;
+        height: calc(var(--vh, 1vh) * 88);
     }
 
     .container-center {
@@ -121,6 +124,9 @@
 }
 
 @media screen and (min-width: 550px) {
+    .App {
+        justify-content: center;
+    }
     .app-wrapper {
         background-color: var(--color-bg);
         width: 88vw;

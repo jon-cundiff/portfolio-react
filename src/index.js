@@ -4,6 +4,13 @@ import { BrowserRouter } from "react-router-dom";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
+import handleVh from "./Util/hanldleVh";
+
+/* 
+    Set vh px amount in css variable to account for how mobile browsers handle vh
+    (100vh will appear beyond some toolbars based on scroll action)
+*/
+handleVh();
 
 ReactDOM.render(
     <BrowserRouter>
