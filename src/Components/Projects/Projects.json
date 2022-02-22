@@ -5,7 +5,7 @@
         "git": "https://github.com/jon-cundiff/wordle-clash",
         "live": "https://wordle-clash.herokuapp.com/",
         "technologies": [
-            "Javascript",
+            "JavaScript",
             "Node.js",
             "Expressjs",
             "Socket.IO",
@@ -44,7 +44,7 @@
         "git": "https://github.com/jon-cundiff/aural_connectors",
         "live": "https://aural-connectors.surge.sh/",
         "technologies": [
-            "Javascript",
+            "JavaScript",
             "HTML",
             "CSS",
             "Ticketmaster Discovery API",
@@ -73,7 +73,7 @@
         "git": "https://github.com/jon-cundiff/portfolio-react",
         "live": "https://jon-cundiff.dev/",
         "technologies": [
-            "Javascript",
+            "JavaScript",
             "HTML",
             "CSS",
             "React",

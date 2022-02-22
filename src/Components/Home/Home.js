@@ -15,7 +15,7 @@ const Home = () => {
                         technologies and push them to the limits.
                     </p>
                     <p>
-                        I develop most apps using Javascript or Python, but I
+                        I develop most apps using JavaScript or Python, but I
                         like to indulge in trying to do the same projects in
                         other programming languages, including Dart and Flutter
                         for cross-platform mobile app development with near

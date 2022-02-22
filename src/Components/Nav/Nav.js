@@ -3,52 +3,17 @@ import NavItem from "./NavItem";
 
 import "./Nav.css";
 // Home, About, Portfolio, Contact, Skills, Articles
-const Nav = ({ isDark }) => {
+const Nav = () => {
     return (
         <nav className="nav">
             <div className="nav-container">
-                <NavItem
-                    title="Home"
-                    icon="house-chimney"
-                    isDark={isDark}
-                    link="/"
-                />
-                <NavItem
-                    title="About"
-                    icon="user-tie"
-                    isDark={isDark}
-                    link="/about"
-                />
-                <NavItem
-                    title="Projects"
-                    icon="code-merge"
-                    isDark={isDark}
-                    link="/projects"
-                />
-                <NavItem
-                    title="Skills"
-                    icon="code"
-                    isDark={isDark}
-                    link="/skills"
-                />
-                <NavItem
-                    title="Resume"
-                    icon="file"
-                    isDark={isDark}
-                    link="/resume"
-                />
-                <NavItem
-                    title="Articles"
-                    icon="newspaper"
-                    isDark={isDark}
-                    link="/articles"
-                />
-                <NavItem
-                    title="Contact"
-                    icon="address-card"
-                    isDark={isDark}
-                    link="/contact"
-                />
+                <NavItem title="Home" icon="house-chimney" link="/" />
+                <NavItem title="About" icon="user-tie" link="/about" />
+                <NavItem title="Projects" icon="code-merge" link="/projects" />
+                <NavItem title="Skills" icon="code" link="/skills" />
+                <NavItem title="Resume" icon="file" link="/resume" />
+                <NavItem title="Articles" icon="newspaper" link="/articles" />
+                <NavItem title="Contact" icon="address-card" link="/contact" />
             </div>
         </nav>
     );
