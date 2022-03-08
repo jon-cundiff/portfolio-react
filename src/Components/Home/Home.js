@@ -12,7 +12,7 @@ const Home = () => {
                     <h2 className="subtitle">Full Stack Developer</h2>
                     <p>
                         I am a software developer that enjoys learning new
-                        technologies and push them to the limits.
+                        technologies and pushing them to the limits.
                     </p>
                     <p>
                         I develop most apps using JavaScript or Python, but I
